@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStoage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "HubConnection": "Endpoint=sb://iothub-ns-qsi-iot-hu-17957331-b08f843efa.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=isibjTHF+jZDBwY2A6gU1e/6f+vIJ5Dt0XPOumJ53ts=;EntityPath=qsi-iot-hub-1"
+  }
+}

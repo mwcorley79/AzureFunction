@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "connection": "HubConnection",
+      "eventHubName": "messages/events",
+      "name": "message"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/RTDMS_functions.dll",
+  "entryPoint": "Viceroy.Funcs.IoTHub_EventHub1.Run"
+}
